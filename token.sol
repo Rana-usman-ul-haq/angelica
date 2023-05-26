@@ -639,7 +639,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
 }
 
 contract AngelicaPickles is ERC20, Ownable {
-    constructor() ERC20("Angelica Pickles", "Rugrats") {
+    constructor() ERC20("Angelica Pickles (Rugrats)", "PICKLS") {
         _mint(msg.sender, 900000000 * 10 ** decimals());
     }
 }
